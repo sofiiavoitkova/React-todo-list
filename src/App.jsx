@@ -11,6 +11,11 @@ function App(props) {
       key={task.id}
     />
   ));
+
+  function addTask(name) {
+    alert(name);
+  }
+  
   return (
     <div className="todoapp stack-large">
       <h1>TodoMatic</h1>
